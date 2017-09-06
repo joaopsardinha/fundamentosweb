@@ -1,0 +1,65 @@
+* {
+	font-family: Tahoma;
+}
+
+body{
+	margin: 0;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.empresa{
+	position: relative;
+	background-color: rgb(240,240,240);
+}
+
+.empresa-apresentacao{
+	width: 300px;
+	z-index: 9999;
+	float: left;
+}
+
+.empresa-apresentacao header  h1::before{
+	content: "";
+	background: url(../img/logo.png) no-repeat bottom;
+	width: 35px;
+	height: 35px;
+}
+
+.empresa-apresentacao h1{
+	margin: 0;
+}
+
+.empresa-foto{
+	
+	float: left;
+	width: 400px;
+	margin: 0;
+}
+
+.empresa-contato{
+	position: absolute;
+	top: 8px;
+	right: 40px;
+	background-color: rgb(10,42,53);
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.empresa-contato span{
+	 color: rgb(255,124,25);
+}
+
+.menu{
+	clear: both;
+}
+
+.clearfix {
+	clear: both;
+}
+
